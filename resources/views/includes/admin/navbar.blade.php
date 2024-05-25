@@ -89,7 +89,7 @@
                     </div>
                     <div>
                         <div class="small text-gray-500">December 2, 2019</div>
-                        Spending Alert: We've noticed unusually high spending for your account.
+                        Spending Alert: We have noticed unusually high spending for your account.
                     </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="font-weight-bold">
                         <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                            problem I've been having.</div>
+                            problem I have been having.</div>
                         <div class="small text-gray-500">Emily Fowler · 58m</div>
                     </div>
                 </a>
@@ -165,7 +165,7 @@
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{Auth::User()->name}}</span>
                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
             </a>
             <!-- Dropdown - User Information -->
