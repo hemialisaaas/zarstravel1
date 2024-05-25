@@ -2,8 +2,8 @@
     <div class="container">
         <nav class="row navbar-expand-lg navbar-light bg-white">
             <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
-                <a href="#" class="navbar-brand">
-                    <img src="frontend/images/logo.png" alt="logo"/>
+                <a href="{{route('home')}}" class="navbar-brand">
+                    <img src="{{('frontend/images/logo.png')}}" alt="logo"/>
                  </a>
             </div>
             <ul class="navbar-nav mr-auto d-none d-lg-block">
