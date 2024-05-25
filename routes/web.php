@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\HomeController@index')->name('home');
-Route::get('/detail', 'App\Http\Controllers\DetailController@index')->name('detail');
+Route::get('/', 'App\Http\Controllers\HomeController@index')
+    ->name('home');
+
+Route::get('/detail', 'App\Http\Controllers\DetailController@index')
+    ->name('detail');
+
+Route::get('/checkout', 'App\Http\Controllers\CheckoutController@index')
+    ->name('checkout');
 
 Route::prefix('admin')
     ->group(function () {

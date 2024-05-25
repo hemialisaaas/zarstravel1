@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class DetailController extends Controller
+class CheckoutController extends Controller
 {
     public function index(Request $request)
     {
-        return view('pages.admin.detail');
+        return view('pages.admin.checkout');
     }
 }
