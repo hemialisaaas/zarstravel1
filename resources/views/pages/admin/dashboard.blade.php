@@ -6,11 +6,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-<<<<<<< HEAD
-                        <h1 class="h3 mb-0 text-gray-800">Dashboardd</h1>
-=======
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
->>>>>>> f05dbc97ce75c0cb86c0c7eafe9b95b985a09885
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
