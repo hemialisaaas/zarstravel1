@@ -75,7 +75,7 @@
                     <div class="section-popular-travel row justify-content-center">
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card-travel text-center d-flex flex-column"
-                            style="background-image: url('frontend/images/popular-1.jpg');"
+                            style="background-image: url('{{ url('frontend/images/popular-1.jpg') }}')"
                             >
                                 <div class="travel-country">
                                     INDONESIA
@@ -92,7 +92,7 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card-travel text-center d-flex flex-column"
-                            style="background-image: url('frontend/images/popular-2.jpg');"
+                            style="background-image: url('{{ url('frontend/images/popular-2.jpg') }}')"
                             >
                                 <div class="travel-country">
                                     INDONESIA
@@ -109,8 +109,8 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card-travel text-center d-flex flex-column"
-                            style="background-image: url('frontend/images/popular-3.jpg');"
-                            >
+                            style="background-image: url('{{ url('frontend/images/popular-3.jpg') }}')"
+                            />
                                 <div class="travel-country">
                                     INDONESIA
                                 </div>
@@ -126,8 +126,8 @@
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card-travel text-center d-flex flex-column"
-                            style="background-image: url('frontend/images/popular-4.jpg');"
-                            >
+                            style="background-image: url('{{ url('frontend/images/popular-4.jpg') }}')"
+                            />
                                 <div class="travel-country">
                                     NIDDLE EAST
                                 </div>
@@ -168,7 +168,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="card card-testimonial text-center">
                                 <div class="testimonial-content">
-                                    <img src="frontend/images/testimonial-1.png"
+                                    <img src="{{url ('frontend/images/testimonial-1.png')}}"
                                     alt="User"
                                     class="mb-4 rounded-circle" />
                                     <h3 class="mb-4">
@@ -188,7 +188,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="card card-testimonial text-center">
                                 <div class="testimonial-content">
-                                    <img src="frontend/images/testimonial-2.png"
+                                    <img src="{{url ('frontend/images/testimonial-2.png')}}"
                                     alt="User"
                                     class="mb-4 rounded-circle" />
                                     <h3 class="mb-4">
@@ -208,7 +208,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="card card-testimonial text-center">
                                 <div class="testimonial-content">
-                                    <img src="frontend/images/testmonial-3.png"
+                                    <img src="{{url ('frontend/images/testimonial-3.png')}}"
                                     alt="User"
                                     class="mb-4 rounded-circle" />
                                     <h3 class="mb-4">
