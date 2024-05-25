@@ -202,7 +202,7 @@
     </section>
 </main>
 @endsection
-
+hallii
 @push('prepend-style')
 <link rel="stylesheet" href="{{ url('frontend/libraries/dist/xzoom.css')}}">
 @endpush
