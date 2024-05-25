@@ -20,6 +20,6 @@ Route::get('/', function () {
 Route::prefix('admin')
     ->namespace('Admin')
     ->group(function () {
-        Route::get('/', 'DashboardController@index') 
-        ->name('admin.dashboard');
+        Route::get('/', 'App\Http\Controllers\Admin\DashboardController@index') 
+        ->name('dashboard');
      });
