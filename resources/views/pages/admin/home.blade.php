@@ -208,7 +208,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4">
                             <div class="card card-testimonial text-center">
                                 <div class="testimonial-content">
-                                    <img src="{{url ('frontend/images/testimonial-3.png')}}"
+                                    <img src="{{url ('frontend/images/testmonial-3.png')}}"
                                     alt="User"
                                     class="mb-4 rounded-circle" />
                                     <h3 class="mb-4">

@@ -32,41 +32,41 @@
                     </p>
                     <div class="gallery">
                         <div class="xzoom-container">
-                            <img src="frontend/images/details.png"
+                            <img src="{{url('frontend/images/details.png')}}"
                             class="xzoom"
                             id="xzoom-default"
-                            xoriginal="frontend/images/details.png"/>
+                            xoriginal="{{url('frontend/images/details.png')}}"/>
                         </div>
                         <div class="xzoom-thumbs">
-                            <a href="frontend/images/details-1.png">
-                                <img src="frontend/images/details-1.png"
+                            <a href="{{url('frontend/images/details-1.png')}}">
+                                <img src="{{url('frontend/images/details-1.png')}}"
                                 class="xzoom-gallery"
                                 width="128"
-                                xpreview="frontend/images/details-1.png"/>
+                                xpreview="{url('frontend/images/details-1.png')}"/>
                             </a>
-                            <a href="frontend/images/details-2.png">
-                                <img src="frontend/images/details-2.png"
+                            <a href="url ('frontend/images/details-2.png')">
+                                <img src="url ('frontend/images/details-2.png')"
                                 class="xzoom-gallery"
                                 width="128"
-                                xpreview="frontend/images/details-2.png"/>
+                                xpreview="{{url('frontend/images/details-2.png')}}"/>
                             </a>
-                            <a href="frontend/images/details-3.png">
-                                <img src="frontend/images/details-3.png"
+                            <a href="{{url('frontend/images/details-3.png')}}">
+                                <img src="{{url('frontend/images/details-3.png')}}"
                                 class="xzoom-gallery"
                                 width="128"
-                                xpreview="frontend/images/details-3.png"/>
+                                xpreview="{{url('frontend/images/details-3.png')}}"/>
                             </a>
-                            <a href="frontend/images/details-4.png">
-                                <img src="frontend/images/details-4.png"
+                            <a href="{{url('frontend/images/details-4.png')}}">
+                                <img src="{{url('frontend/images/details-4.png')}}"
                                 class="xzoom-gallery"
                                 width="128"
-                                xpreview="frontend/images/details-4.png"/>
+                                xpreview="{{url('frontend/images/details-4.png')}}"/>
                             </a>
-                            <a href="frontend/images/details-5.png">
-                                <img src="frontend/images/details-5.png"
+                            <a href="{{url('frontend/images/details-5.png')}}">
+                                <img src="{{url('frontend/images/details-5.png')}}"
                                 class="xzoom-gallery"
                                 width="128"
-                                xpreview="frontend/images/details-5.png"/>
+                                xpreview="{{url('frontend/images/details-5.png')}}"/>
                             </a>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                 <div class="features row">
                     <div class="col-md-4">
                         <div class="description">
-                            <img src="frontend/images/lc-event.png"
+                            <img src="{{url('frontend/images/lc-event.png')}}"
                             alt=""
                             class="features-image"/>
                             <div class="description">
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-md-4 border-left">
                         <div class="description">
-                            <img src="frontend/images/lc-language.png"
+                            <img src="{{url('frontend/images/lc-language.png')}}"
                             alt=""
                             class="features-image"/>
                             <div class="description">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="col-md-4 border-left">
                         <div class="description">
-                            <img src="frontend/images/lc-foods.png"
+                            <img src="{{url('frontend/images/lc-foods.png')}}"
                             alt=""
                             class="features-image"/>
                             <div class="description">
