@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\HomeController@index');
 
 Route::prefix('admin')
     ->group(function () {
-        Route::get('/', 'App\Http\Controllers\Admin\DashboardController@index') 
+        Route::get('/', 'App\Http\Controllers\Admin\DashboardController@index')
         ->name('dashboard');
      });
