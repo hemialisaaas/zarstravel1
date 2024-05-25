@@ -11,8 +11,9 @@ class CheckoutController extends Controller
         return view('pages.admin.checkout');
     }
 
+
     public function success(Request $request)
     {
-        return view('pages.success');
+        return view('pages.admin.success');
     }
 }

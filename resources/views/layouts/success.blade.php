@@ -11,7 +11,7 @@
 
 </head>
     <body>
-        @include('includes.navbar-alternate')
+        @include('includes.admin.navbar-alternate')
         @yield('content')
 
         @stack('prepend-script')

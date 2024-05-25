@@ -22,7 +22,7 @@ Route::get('/detail', 'App\Http\Controllers\DetailController@index')
 Route::get('/checkout', 'App\Http\Controllers\CheckoutController@index')
     ->name('checkout');
 
-    Route::get('/checkout', 'App\Http\Controllers\CheckoutController@success')
+Route::get('/checkout/success', 'App\Http\Controllers\CheckoutController@success')
     ->name('checkout-success');
 
 Route::prefix('admin')

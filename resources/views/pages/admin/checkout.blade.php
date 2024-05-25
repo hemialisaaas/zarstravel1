@@ -48,7 +48,7 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img src="{{url ('frontend/images/avatar-1.png')}}.png"
+                                        <img src="{{url ('frontend/images/avatar-1.png')}}"
                                         height="60" />
                                     </td>
                                     <td class="align-middle">
@@ -189,7 +189,7 @@
                         </p>
                         <div class="bank">
                             <div class="bank-item pb-3">
-                                <img src="f{{url ('frontend/images/ic_bank.png')}}" alt="bank bca" class="bank-image">
+                                <img src="{{url ('frontend/images/ic_bank.png')}}" alt="bank bca" class="bank-image">
                                 <div class="description">
                                     <h3>Zars Travel</h3>
                                     <p>
