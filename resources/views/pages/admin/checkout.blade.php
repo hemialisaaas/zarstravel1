@@ -1,4 +1,4 @@
-@extend('layouts.checkout')
+@extends('layouts.checkout')
 @section('title', 'Checkout')
 
 @section('content')
@@ -32,7 +32,7 @@
                     </h1>
                     <p>
                         Trip to Ubud, Bali, Indonesia
-                    </p> 
+                    </p>
                     <div class="attendee">
                         <table class="table table-responsive-sm text-center">
                             <thead>
@@ -48,7 +48,7 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <img src="{{url ('frontend/images/avatar-1.png')}}.png" 
+                                        <img src="{{url ('frontend/images/avatar-1.png')}}.png"
                                         height="60" />
                                     </td>
                                     <td class="align-middle">
@@ -71,7 +71,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="{{url ('frontend/images/avatar-2.png')}}" 
+                                        <img src="{{url ('frontend/images/avatar-2.png')}}"
                                         height="60" />
                                     </td>
                                     <td class="align-middle">
@@ -94,7 +94,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div> 
+                    </div>
                     <div class="member mt-3">
                         <h2>Add Member</h2>
                         <form class="form-inline">
@@ -104,8 +104,8 @@
                             <input
                             type="text"
                             name="inputUsername"
-                            class="form-control mb-2 mr-sm-2" 
-                            id="inputUsername" 
+                            class="form-control mb-2 mr-sm-2"
+                            id="inputUsername"
                             placeholder="Username"
                             />
                             <label for="inputVisa" class="sr-only">Visa</label>
@@ -131,8 +131,8 @@
                         <p class="disclamer mb-0">
                             You are only able to invite member that has registered in Zars Travel.
                         </p>
-                    </div> 
-                </div>   
+                    </div>
+                </div>
             </div>
                 <div class="col-lg-4">
                     <div class="card card-details card-right">
@@ -213,14 +213,14 @@
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                     <div class="join-container">
-                        <a href="success.html" class="btn btn-block btn-join-now mt-3 py-2">
+                        <a href="{{route('checkout-success')}}" class="btn btn-block btn-join-now mt-3 py-2">
                             I Have Made Payment
                         </a>
                     </div>
                     <div class="text-center">
-                        <a href="details.html" class="text-muted">
+                        <a href="{{route('detail')}}" class="text-muted">
                             Cancel Booking
                         </a>
                     </div>

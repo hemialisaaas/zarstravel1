@@ -118,7 +118,7 @@
                                     NUSA PENIDA
                                 </div>
                                 <div class="travel-button mt-auto">
-                                    <a href="details.html" class="btn btn-travel-details px-4">
+                                    <a href="{{ url('/detail') }}" class="btn btn-travel-details px-4">
                                         VIEW DETAILS
                                     </a>
                                 </div>
@@ -127,7 +127,7 @@
                         <div class="col-sm-6 col-md-4 col-lg-3">
                             <div class="card-travel text-center d-flex flex-column"
                             style="background-image: url('{{ url('frontend/images/popular-4.jpg') }}')"
-                            />
+                            >
                                 <div class="travel-country">
                                     NIDDLE EAST
                                 </div>
@@ -135,7 +135,7 @@
                                     DUBAI
                                 </div>
                                 <div class="travel-button mt-auto">
-                                    <a href="details.html" class="btn btn-travel-details px-4">
+                                    <a href="{{route('detail')}}" class="btn btn-travel-details px-4">
                                         VIEW DETAILS
                                     </a>
                                 </div>
