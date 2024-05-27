@@ -65,7 +65,7 @@
                                     <input type="number" class="form-control" name="price" placeholder="Price" value="{{ old('price') }}">
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-block">
-                                    Simpan
+                                    Ubah
                                 </button>
                             </form>
                         </div>
