@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\TravelPackage;
+use App\Models\TravelPackage;
 use Illuminate\Http\Request;
 
 class TravelPackageController extends Controller
