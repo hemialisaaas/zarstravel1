@@ -27,7 +27,7 @@
                                     <td>{{ $item->id }}</td>
                                 </tr>
                                 <tr>
-                                    <th>Paket Travel</th>
+                                    <th>Transaksi</th>
                                     <td>{{ $item->travel_package->title }}</td>
                                 </tr>
                                 <tr>
