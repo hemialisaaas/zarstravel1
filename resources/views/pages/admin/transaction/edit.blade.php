@@ -6,7 +6,11 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
+<<<<<<< HEAD
                         <h1 class="h3 mb-0 text-gray-800">Edit Paket Travel {{ $item->title }}</h1>
+=======
+                        <h1 class="h3 mb-0 text-gray-800">Edit Transaksi</h1>
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                     </div>
 
                     @if ($errors->any())
@@ -21,6 +25,7 @@
 
                     <div class="card shadow"></div>
                         <div class="card-body">
+<<<<<<< HEAD
                             <form action="{{ route('travel-package.store') }}" method="POST">
                                 @method('PUT')
                                 @csrf
@@ -64,6 +69,23 @@
                                     <label for="price">Price</label>
                                     <input type="number" class="form-control" name="price" placeholder="Price" value="{{ old('price') }}">
                                 </div>
+=======
+                            <form action="{{ route('transaction.store') }}" method="POST">
+                                @method('PUT')
+                                @csrf
+                                <div class="form-group">
+                                    <label for="transaction_index">Status</label>
+                                    <select name="transaction_status" required class="form-control">
+                                        <option value="{{ $item->transaction_status }}">
+                                            Jangan Ubah ({{$item->transaction_status}})
+                                        </option>
+                                        <option value="IN_CART">In_Cart</option>
+                                        <option value="PENDING">Pending</option>
+                                        <option value="SUCCESS">Success</option>
+                                        <option value="CANCEL">Cancel</option>
+                                        <option value="FAILED">Failed</option>
+                                    </select>
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                                 <button type="submit" class="btn btn-primary btn-block">
                                     Ubah
                                 </button>

@@ -7,7 +7,10 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Transaksi</h1>
+<<<<<<< HEAD
 
+=======
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                     </div>
 
                     <div class="row">
@@ -35,11 +38,16 @@
                                             <td>{{$item->transaction_total}}</td>
                                             <td>{{$item->transaction_status}}</td>
                                             <td>
+<<<<<<< HEAD
                                                 <a href="{{route('transaction.show', $item->id)}}" class="btn btn-primary">
                                                     <i class="fa fa-eye"></i>
                                                 </a>
                                                 <a href="{{route('transaction.edit', $item->id)}}" class="btn btn-info">
                                                     <i class="fa fa-pencil-alt"></i>
+=======
+                                                <a href="{{route('transaction.edit', $item->id)}}" class="btn btn-primary">
+                                                    <i class="fa fa-eye-alt"></i>
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                                                 </a>
                                                 <form action="{{route('transaction.destroy', $item->id)}}" method="post" class="d-inline">
                                                     @csrf

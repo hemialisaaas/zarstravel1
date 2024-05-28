@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Gallery;
-use App\Models\TravePackage;
+use App\Models\TravelPackage;
 use App\Http\Requests\Admin\GalleryRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\str;

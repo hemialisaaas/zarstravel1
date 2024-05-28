@@ -18,11 +18,17 @@ class TransactionController extends Controller
     public function index()
     {
         $items = Transaction::with([
+<<<<<<< HEAD
             'details', 'travel_package', 'users'
         ])->get();
 
 
 
+=======
+            'details', 'travel_package', 'user'
+        ])->get();
+
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
         return view('pages.admin.transaction.index', [
             'items' => $items
         ]);
@@ -35,7 +41,11 @@ class TransactionController extends Controller
      */
     public function create()
     {
+<<<<<<< HEAD
         //
+=======
+        return view('pages.admin.transaction.create');
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
     }
 
     /**
@@ -63,10 +73,15 @@ class TransactionController extends Controller
     public function show($id)
     {
         $item = Transaction::with([
+<<<<<<< HEAD
             'details', 'travel_package', 'users'
         ])->findOrFail($id);
 
 
+=======
+            'details', 'travel_package', 'user'
+        ])->findOrFail($id);
+>>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
         return view('pages.admin.transaction.detail', [
             'item' => $item
         ]);
