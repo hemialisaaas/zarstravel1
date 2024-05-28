@@ -6,11 +6,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-<<<<<<< HEAD
-                        <h1 class="h3 mb-0 text-gray-800">Edit Paket Travel {{ $item->title }}</h1>
-=======
                         <h1 class="h3 mb-0 text-gray-800">Edit Transaksi</h1>
->>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                     </div>
 
                     @if ($errors->any())

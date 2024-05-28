@@ -21,57 +21,6 @@
 
                     <div class="card shadow"></div>
                         <div class="card-body">
-<<<<<<< HEAD
-                           <table class="table table-bordered">
-                               <tr></tr>
-                                   <th>ID</th>
-                                   <td>{{ $item->id }}</td>
-                               </tr>
-                               <tr>
-                                   <th>Paket Travel</th>
-                                   <td>{{ $item->travel_package->title }}</td>
-                               </tr>
-                               <tr>
-                                   <th>Pembeli</th>
-                                   <td>{{ $item->user->name }}</td>
-                               </tr>
-                               <tr>
-                                   <th>Additional Visa</th>
-                                   <td>${{ $item->additional_visa }}</td>
-                               </tr>
-                               <tr>
-                                   <th>Total Transaksi</th>
-                                   <td>${{ $item->transaction_total }}</td>
-                               </tr>
-                               <tr></tr>
-                                   <th>Status Transaksi</th>
-                                   <td>{{ $item->transaction_status }}</td>
-                               </tr>
-                               <tr></tr>
-                                   <th>Pembelian</th>
-                                   <td>
-                                       <table class="table table-bordered">
-                                           <tr>
-                                               <th>ID</th>
-                                               <th>Nama</th>
-                                               <th>Nationality</th>
-                                               <th>Visa</th>
-                                               <th>DOE Passport</th>
-                                           </tr>
-                                           @foreach ($item->details as $detail)
-                                               <tr>
-                                                   <td>{{ $detail->id }}</td>
-                                                   <td>{{ $detail->username }}</td>
-                                                   <td>{{ $detail->nationality }}</td>
-                                                   <td>{{ $detail->is_visa ? '30 Days' : 'N/A' }}</td>
-                                                   <td>{{ $detail->doe_passport }}</td>
-                                               </tr>
-                                           @endforeach
-                                       </table>
-                                   </td>
-                               </tr>
-                           </table>
-=======
                             <table class="table table-bordered"></table>
                                 <tr>
                                     <th>ID</th>
@@ -114,7 +63,6 @@
                                     </tr>
                                 @endforeach
                             </table>
->>>>>>> a29f9aa3779219e363600612a78fcc351ed7b861
                         </div>
                     </div>
                 </div>
