@@ -6,7 +6,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Edit Paket Travel</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Edit Transaksi</h1>
                     </div>
 
                     @if ($errors->any())
@@ -21,49 +21,21 @@
 
                     <div class="card shadow"></div>
                         <div class="card-body">
-                            <form action="{{ route('travel-package.store') }}" method="POST">
+                            <form action="{{ route('transaction.store') }}" method="POST">
                                 @method('PUT')
                                 @csrf
                                 <div class="form-group">
-                                    <label for="title">Title</label>
-                                    <input type="text" class="form-control" name="title" placeholder="Title" value="{{ old('title') }}">
-                                </div>
-                                <div class="form-group">
-                                    <label for="location">Location</label>
-                                    <input type="text" class="form-control" name="location" placeholder="Location" value="{{ old('location') }}">
-                                </div>
-                                <div class="form-group">
-                                    <label for="about">About</label>
-                                    <textarea name="about" rows="10" class="d-block w-100 form-control">{{ old('about') }}</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="featured_event">Featured Event</label>
-                                    <input type="text" class="form-control" name="featured_event" placeholder="Featured Event" value="{{ old('featured_event') }}">
-                                </div>
-                                <div class="form-group"></div>
-                                    <label for="language">Language</label>
-                                    <input type="text" class="form-control" name="language" placeholder="Language" value="{{ old('language') }}">
-                                </div>
-                                <div class="form-group">
-                                    <label for="foods">Foods</label>
-                                    <input type="text" class="form-control" name="foods" placeholder="Foods" value="{{ old('foods') }}">
-                                </div>
-                                <div class="form-group">
-                                    <label for="departure_date">Departure Date</label>
-                                    <input type="date" class="form-control" name="departure_date" placeholder="Departure Date" value="{{ old('departure_date') }}">
-                                </div>
-                                <div class="form-group"></div>
-                                    <label for="duration">Duration</label>
-                                    <input type="text" class="form-control" name="duration" placeholder="Duration" value="{{ old('duration') }}">
-                                </div>
-                                <div class="form-group">
-                                    <label for="type">Type</label>
-                                    <input type="text" class="form-control" name="type" placeholder="Type" value="{{ old('type') }}">
-                                </div>
-                                <div class="form-group"></div>
-                                    <label for="price">Price</label>
-                                    <input type="number" class="form-control" name="price" placeholder="Price" value="{{ old('price') }}">
-                                </div>
+                                    <label for="transaction_index">Status</label>
+                                    <select name="transaction_status" required class="form-control">
+                                        <option value="{{ $item->transaction_status }}">
+                                            Jangan Ubah ({{$item->transaction_status}})
+                                        </option>
+                                        <option value="IN_CART">In_Cart</option>
+                                        <option value="PENDING">Pending</option>
+                                        <option value="SUCCESS">Success</option>
+                                        <option value="CANCEL">Cancel</option>
+                                        <option value="FAILED">Failed</option>
+                                    </select>
                                 <button type="submit" class="btn btn-primary btn-block">
                                     Ubah
                                 </button>
