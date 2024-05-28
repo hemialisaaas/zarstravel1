@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">ZARSTRAVEL ADMIN<sup>&trade;</sup></div>
+        <div class="sidebar-brand-text mx-3">ZARSTRAVEL ADMIN<sup>2</sup></div>
     </a>
 
     <!-- Divider -->
@@ -35,7 +35,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="{{route('transaction.index')}}">
+        <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-dollar-sign"></i>
             <span>Transaksi</span></a>
     </li>
@@ -49,7 +49,7 @@
 
     <!-- Sidebar Message -->
     <div class="sidebar-card d-none d-lg-flex">
-        <img class="sidebar-card-illustration mb-2" src="{{url('backend/img/undraw_rocket.svg')}}" alt="...">
+        <img class="sidebar-card-illustration mb-2" src="public/backend/img/undraw_rocket.svg" alt="...">
         <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!
         </p>
         <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>

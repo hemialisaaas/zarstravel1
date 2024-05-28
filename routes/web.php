@@ -38,5 +38,3 @@ Route::prefix('admin')
      });
 
 Auth::routes(['verify' => true]);
-
-
