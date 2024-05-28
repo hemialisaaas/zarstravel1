@@ -13,7 +13,7 @@
             <P class="mt-3">
                 Pesan dan nikmati perjalanan yang menyenangkan
             </P>
-            <a href="#" class="btn btn-get-started px-4 mt-4">
+            <a href="#popular" class="btn btn-get-started px-4 mt-4">
                 Get Started
             </a>
         </header>
