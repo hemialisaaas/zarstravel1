@@ -40,7 +40,7 @@ class TravelPackageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TravelPackageRequest $request)
     {
         $data = $request->all();
 
@@ -88,7 +88,9 @@ class TravelPackageController extends Controller
         $data['slug'] = Str::slug($request->title);
 
         $item = TravelPackage::findOrFail($id);
+
         $item->update($data);
+
         return redirect()->route('travel-package.index');
     }
 
